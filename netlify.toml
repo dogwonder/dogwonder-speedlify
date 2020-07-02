@@ -1,0 +1,12 @@
+[build]
+  publish = "_site"
+  command = "npm run build-production"
+
+[[plugins]]
+package = "./plugins/keep-data-cache"
+
+[[redirects]]
+	from = "/"
+	to = "/netlify/"
+	status = 302
+	force = true
