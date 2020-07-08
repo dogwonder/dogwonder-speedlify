@@ -34,7 +34,8 @@ module.exports = {
 			freshChrome: "site"
 		},
 		urls: [
-			"https://dogwonder.co.uk/"
+			"https://dogwonder.co.uk/", 
+			"https://actiononhearingloss.org.uk/"
 		]
 	}
 };
