@@ -25,6 +25,7 @@ module.exports = {
 		urls: [
 			"https://richholman.com/",
 			"https://juckwonder.com/", 
+			"https://phonebox.photos/", 
 			"https://seasonal.today/"
 		]
 	},
@@ -35,7 +36,8 @@ module.exports = {
 		},
 		urls: [
 			"https://dogwonder.co.uk/", 
-			"https://actiononhearingloss.org.uk/"
+			"https://dgw.ltd/",
+			"https://dgw.ltd/style-guide/"
 		]
 	}
 };
