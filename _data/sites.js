@@ -39,5 +39,15 @@ module.exports = {
 			"https://dgw.ltd/",
 			"https://dgw.ltd/style-guide/"
 		]
+	}, 
+	dgwltd: {
+		description: "DGW.ltd perf",
+		options: {
+			freshChrome: "site"
+		},
+		urls: [
+			"https://dgw.ltd/",
+			"https://dgw.ltd/style-guide/"
+		]
 	}
 };
