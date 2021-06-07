@@ -39,6 +39,17 @@ module.exports = {
 			"https://dgw.ltd/",
 			"https://dgw.ltd/style-guide/"
 		]
+	},
+	penta: {
+		description: "Penta web sites",
+		options: {
+			freshChrome: "site"
+		},
+		urls: [
+			"https://getpenta.com/de/",
+			"https://getpenta.com/de/pricing/",
+			'https://getpenta.com/de/open-account/'
+		]
 	}, 
 	dgwltd: {
 		description: "DGW.ltd perf",
