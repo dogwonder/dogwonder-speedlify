@@ -36,8 +36,7 @@ module.exports = {
 		},
 		urls: [
 			"https://dogwonder.co.uk/", 
-			"https://dgw.ltd/",
-			"https://dgw.ltd/style-guide/"
+			"https://rnid.org.uk/"
 		]
 	},
 	penta: {
