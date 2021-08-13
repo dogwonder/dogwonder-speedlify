@@ -36,7 +36,9 @@ module.exports = {
 		},
 		urls: [
 			"https://dogwonder.co.uk/", 
-			"https://rnid.org.uk/"
+			"https://rnid.org.uk/", 
+			"https://dgw.ltd/style-guide/",
+
 		]
 	},
 	penta: {
@@ -48,16 +50,6 @@ module.exports = {
 			"https://getpenta.com/de/",
 			"https://getpenta.com/de/pricing/",
 			'https://getpenta.com/de/open-account/'
-		]
-	}, 
-	dgwltd: {
-		description: "DGW.ltd perf",
-		options: {
-			freshChrome: "site"
-		},
-		urls: [
-			"https://dgw.ltd/",
-			"https://dgw.ltd/style-guide/"
 		]
 	}
 };
