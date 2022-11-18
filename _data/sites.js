@@ -1,22 +1,4 @@
 module.exports = {
-	// netlify: {
-	// 	description: "Netlify web sites",
-	// 	options: {
-	// 		freshChrome: "site",
-	// 	},
-	// 	urls: [
-	// 		"https://www.netlify.com/",
-	// 		"https://www.netlify.com/donation-matching/",
-	// 		"https://www.netlify.com/products/build/plugins/",
-	// 		"https://www.netlify.com/with/sitecore/",
-	// 		"https://www.netlify.com/with/drupal/",
-	// 		"https://www.netlify.com/with/wordpress/",
-	// 		"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
-	// 		// "https://www.netlify.com/pricing/", // Having Lighthouse issues with LCP on this page
-	// 		"https://jamstackconf.com/",
-	// 		"https://jamstackconf.com/virtual/",
-	// 	]
-	// },
 	ssg: {
 		description: "Static Site Generator web sites",
 		options: {
@@ -24,7 +6,6 @@ module.exports = {
 		},
 		urls: [
 			"https://richholman.com/",
-			"https://juckwonder.com/", 
 			"https://phonebox.photos/", 
 			"https://seasonal.today/"
 		]
@@ -36,20 +17,19 @@ module.exports = {
 		},
 		urls: [
 			"https://dogwonder.co.uk/", 
-			"https://rnid.org.uk/", 
-			"https://dgw.ltd/style-guide/",
-
+			"https://wp.dgw.ltd/blocks/"
 		]
-	},
-	penta: {
-		description: "Penta web sites",
+	}, 
+	dgwltd: {
+		description: "DGW.ltd web sites",
 		options: {
 			freshChrome: "site"
 		},
 		urls: [
-			"https://getpenta.com/de/",
-			"https://getpenta.com/de/pricing/",
-			'https://getpenta.com/de/open-account/'
+			"https://wp.dgw.ltd/blocks/", 
+			"https://njk.dgw.ltd/", 
+			"https://11ty.dgw.ltd/", 
+			"https://twitter.dgw.ltd/"
 		]
 	}
 };
