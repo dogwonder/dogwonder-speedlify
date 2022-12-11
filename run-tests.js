@@ -70,10 +70,10 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls, e
 		}
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		// if(group.skip) {
-		// 	console.log( `Skipping ${key} (you told me to in your site config)` );
-		// 	continue;
-		// }
+		if(group.skip) {
+			console.log( `Skipping ${key} (you told me to in your site config)` );
+			continue;
+		}
 
 		// TODO maybe skip this step if it’s the first build?
 		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length, group.estimatedTimePerBuild)) {
